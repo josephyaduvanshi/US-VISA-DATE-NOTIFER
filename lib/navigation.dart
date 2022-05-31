@@ -13,7 +13,6 @@ class UpdateIcons extends StatefulWidget {
 
 class _UpdateIconsState extends State<UpdateIcons> {
   WebViewController? _controller;
-  Timer? chk;
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<WebViewController>(
